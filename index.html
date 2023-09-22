@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eva's Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    body {
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/img14.jpeg);
+        background-size: contain;
+        font-weight: 300;
+    }
+</style>
+
 <body>
     <header>
         <div class="container">
             <img src="images/logo2.PNG" width="100" height="auto" alt="logo" class="logo">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <main class="main-container">
+        <section class="home-innerContainer">
+            <h1 id="home-header">"You are the light of the world. A city set on a hill cannot be hidden."
+                <!-- <br><span> A city set on a hill cannot be hidden."</span> -->
+            </h1>
+
+        </section>
+        <section class="home-innerContainer">
+            <p> Hi, my name Eva Belle. Here's a glimpse into my career path.</p><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam officia animi odit hic incidunt nam
+                cupiditate eius ipsum corrupti. Et consequuntur maxime pariatur laboriosam suscipit cupiditate commodi
+                corrupti, officiis veritatis?</p><br>
+            <a href="portfolio.html" class="button button-accent">Checkout My Work</a>
+        </section>
+    </main>
+    <script src="javascript.js"></script>
 </body>
+
 </html>
